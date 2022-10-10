@@ -1,0 +1,162 @@
+QUESTÃO 1
+	programa {
+	funcao inicio() {
+		
+		inteiro num1, num2
+		
+		escreva("Informe o primeiro número:")
+		leia(num1)
+		escreva("\nInforme o segundo número:")
+		leia(num2)
+			se (num1 == num2){
+		escreva("Número iguais")
+		}senao se (num1 > num2){
+		escreva("Primeiro é maior")
+		}senao se(num1 < num2){
+		escreva("Segundo é maior")
+		}senao{
+		escreva("Situação Inexistente!!")
+		}
+	}
+}
+
+QUESTÃO 2
+programa {
+    	funcao inicio() {
+		
+		inteiro nota
+		
+		escreva("Informe a nota:")
+		leia(nota)
+		
+		se (nota < 3){
+		    escreva("Conceito E")
+		}senao se ((nota >= 3) e (nota <= 5)){
+		escreva("Conceito D")
+		}senao se ((nota >= 6) e (nota <= 7)){
+		    escreva("Conceito C")
+		}senao se ((nota >= 8) e (nota <= 9)){
+		    escreva("Conceito B")
+    		}senao se (nota == 10){
+		escreva("Conceito A")
+	}senao{
+	    escreva("Conceito Inexistente!!!")
+	}
+		
+	}
+  QUESTÃO 3
+  programa {
+	funcao inicio() {
+		
+		inteiro num1, num2, num3
+		
+		escreva("Informe o primeiro número:")
+		leia(num1)
+		escreva("\nInforme o segundo número:")
+		leia(num2)
+		escreva("\nInforme o terceiro número:")
+		leia(num3)
+		
+		se ((num1 > num2) e (num2 > num3)){
+		escreva("O resultado é:", num1 + num2)
+		}senao se ((num1 > num2) e (num2 < num3)){
+		escreva("O resultado é:", num1 + num3 )
+		}senao se ((num1 < num2) e (num3 > num1)){
+		escreva("O resultado é:", num2 + num3)
+		}senao se (( num1 < num2 ) e (num1 > num3)){
+		escreva("O resultado é:", num1 + num2)
+		}senao{
+		    escreva("Resultado Inválido!!")
+		}
+		}
+}
+QUESTÃO 4
+programa {
+	funcao inicio() {
+		
+		real sal
+		
+		escreva("Informe o salário:")
+		leia(sal)
+		
+		se ((sal <=0) e (sal <= 400)){
+		    escreva("O aumento é:", ((sal/100)*15))
+		    }senao se (sal <= 700){
+		        escreva("O aumento é:", ((sal/100)*12))
+		    }senao se (sal <= 1000)}
+		    escreva("O aumento é:", ((sal/100)*10))
+		    }senao se (sal<=1800){
+		    escreva("O aumento é:", ((sal/100)*7))
+		    }senao se (sal <= 2500){
+		        escreva("O aumento é:", ((sal/100)*4))
+		    }senao{
+		        escreva("Sem aumento!")
+		    }
+        
+       QUESTÃO 5
+       programa {
+	funcao inicio() {
+	    
+		real sal
+		
+		escreva("Informe o salário:")
+		leia(sal)
+		
+		se ((sal >=0) e (sal <= 400)){
+		    escreva("O aumento é:", ((sal/100)*15))
+		    }senao se (sal <= 700){
+		        escreva("O aumento é:", ((sal/100)*12))
+		    }senao se (sal <= 1000){
+		    escreva("O aumento é:", ((sal/100)*10))
+		    }senao se (sal<=1800){
+		    escreva("O aumento é:", ((sal/100)*7))
+		    }senao se (sal <= 2500){
+		        escreva("O aumento é:", ((sal/100)*4))
+		    }senao{
+		        escreva("Sem aumento!")
+		    }
+	}
+}
+QUESTÃO 6
+programa {
+	funcao inicio() {
+		
+		inteiro abacate
+		
+		escreva("Informe a quantidade de abacates:")
+		leia(abacate)
+		
+		se ((abacate >= 1) e (abacate < 6)){
+		    escreva("O preço é:", 1.30*abacate)
+    		    }senao se (abacate >= 12){
+    		    escreva("O preço é:", abacate * 1)
+    		    }senao{
+    		        escreva("O preço é indetectável!!")
+    		    }
+	}
+}
+
+QUESTÃO 7
+funcao inicio() {
+		 inteiro num1, num2, num3, poten1, poten2, poten3
+		 
+		 
+		 escreva("Informe o primeiro número:")
+		leia(num1)
+		escreva("\nInforme o segundo número:")
+		leia(num2)
+		escreva("\nInforme o terceiro número:")
+		leia(num3)
+		
+		poten1 = (num1 * num1)
+		poten2 = (num2 * num2)
+		poten3 = (num3 * num3)
+		
+			se(poten3 >= 1000){
+		escreva("O resultado é:", poten3)
+		}senao{ 
+		    escreva("Eu amo o IFSertaoPE campus Salgueiro <3")
+		    
+		}
+	}
+}
