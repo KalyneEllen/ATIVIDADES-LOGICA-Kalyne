@@ -29,7 +29,7 @@ programa {
 		escreva("Informe a altura:")
 		leia(altura)
 		
-		area =((baseMaior = baseMenor)*altura)/2
+		area =((baseMaior + baseMenor)*altura)/2
 		
 		escreva("A área é:", area)
 	}
