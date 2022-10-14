@@ -1,0 +1,110 @@
+inteiro a, b, soma
+
+		escreva("Informe o primeiro número:")
+		leia(a)
+		escreva("\nInforme o segundo número:")
+		leia(b)
+
+		soma = a + b
+
+		se (soma > 10){
+		escreva("O quadrado da soma é:", (soma * soma))
+		}se ((soma * soma) > 30){
+		escreva("\nÉ maior que 30")
+		}senao{
+			escreva("Resultado incompatível")
+		}
+2-
+cadeia nome, rua
+		real grau
+
+		escreva("Informe o grau de risco:")
+		leia(grau)
+
+		se(( grau > 9) e (grau <= 10)){
+		escreva("Informe seu nome:")
+		leia(nome)
+		escreva("\nInforme sua rua:")
+		leia(rua)  
+		escreva(nome, ",você deve sair da sua residência agora mesmo! A ", rua , " está interditada")
+		}senao{
+			escreva("O grau não é grave")
+		
+		}
+3 - 
+logico verdadeiro 
+		logico p1, p2, p3, p4, p5
+		
+
+		escreva("O seu animal tem chifre?")
+		leia(p1)
+		escreva("O seu animal tem asas?")
+		leia(p2)
+		escreva("O seu animal late?")
+		leia(p3)
+		escreva("O seu animal mia?")
+		leia(p4)
+		escreva("O seu animal nada?")
+		leia(p5)
+
+		se (p1 == verdadeiro){
+			escreva("O seu animal é um boi")
+		}senao se (p2 == verdadeiro){
+			escreva("O seu animal é uma borboleta")
+		}senao se (p3 == verdadeiro){
+			escreva("O seu animal é um cachorro")
+		}senao se (p4 == verdadeiro){
+		escreva("O seu animal é um gato")
+		}senao se (p5 == verdadeiro){
+		escreva("O seu animal é uma beleia")
+		}senao{
+			escreva("Animal não identificado!")
+			
+		
+				
+			}
+4-
+inteiro x, y, z 
+
+		escreva("Informe o valor de x:")
+		leia(x)
+		escreva("\nInforme o valor de y:")
+		leia(y)
+		escreva("\nInforme o valor de z:")
+		leia(z)
+
+		se ((x < y+z) e (y < x+z) e (z < x+y)){
+		escreva ("Esses lados formam um triângulo")
+		}senao{ 
+			escreva("Esses lados não formam um triângulo!")
+      }
+			
+      5-
+      inteiro m1, m2, h1, h2
+
+escreva("Informe a idade da primeira mulher:")
+leia(m1)
+escreva("\nInforme a idade da segunda mulher:")
+leia(m2)
+escreva("\nInforme a idade do primeiro homem:")
+leia(h1)
+escreva("\nInforme a idade do segundo homem:")
+leia(h2)
+
+se ((m1 > m2) e (h1 > h2)){ 
+			escreva("a soma das idades da mulher mais velha e do homem mais novo é: ", m1 + h2, "\n O produto das idades das mulheres é:", (m1 * m2))
+		} senao se ((m2 > m1) e (h2 > h1)){ 
+			escreva("a soma das idades da mulher mais velha e do homem mais novo é: ", m2 + h1, "\nO produto das idades das mulheres é:", (m1 * m2))
+		} senao se ((m1 > m2) e (h2 > h1)){ 
+			escreva("a soma das idades da mulher mais velha e do homem mais novo é: ", m1 + h1, "\nO produto das idades das mulheres é:", (m1 * m2))
+		} senao se ((m2 > m1) e (h1 > h2)){ 
+			escreva("a soma das idades da mulher mais velha e do homem mais novo é: ", m2 + h2, "\nO produto das idades das mulheres é:", (m1 * m2))
+		} senao{
+		 	escreva("incompatibilidade identificada")
+		}
+
+se ((m1 > 50) ou (m2 > 50) ou (h1 > 50) ou (h2 > 50)){
+escreva("\nVocê é idoso(a)!")
+}senao{ 
+    escreva("\nVocê não é idoso!")
+}
