@@ -128,7 +128,7 @@ programa {
 		
 		se ((abacate >= 1) e (abacate < 6)){
 		    escreva("O preço é:", 1.30*abacate)
-    		    }senao se (abacate >= 12){
+    		    }senao se (abacate <= 6){
     		    escreva("O preço é:", abacate * 1)
     		    }senao{
     		        escreva("O preço é indetectável!!")
