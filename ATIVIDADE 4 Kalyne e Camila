@@ -1,0 +1,331 @@
+QUESTAO 1
+programa {
+  funcao inicio() {
+
+cadeia nome, nomVelha = ""
+	inteiro idade, idVelha = 0
+
+	para (inteiro i = 0; i <= 50; i++){
+		escreva("Informe o nome da mulher: ")
+		leia(nome)
+		escreva("\nInforme a idade da mulher: ")
+		leia(idade)
+		
+
+		se ( idade > idVelha ){
+			idadeVelha = idade
+			nomVelha = nome
+		}
+	}
+			escreva("A mulher mais velha é: ",nomVelha," e sua idade é: ",idVelha)
+      }
+      }
+      
+      QUESTAO 2
+      programa {
+  funcao inicio() {
+    
+    cadeia nome, nomeVelha = "", nomeNova = " "
+    inteiro idade, idamaior = 0, idamenor = 0, soma = 0
+
+		para ( inteiro i = 0; i <= 50; i++){
+
+      escreva("Informe o nome da mulher:")
+			leia(nome)
+			escreva("\nInforme a idade da mulher:")
+			leia(idade)
+			
+      soma = idade + soma 
+
+			se(i == 0){
+			idamaior = idade
+			idamenor = idade
+		}
+		se(idade > idamaior){
+			idamaior = idade
+		}
+		se(idade < idamenor){
+			idamenor = idade
+		}
+	}
+			
+		     escreva("O nome da mais velha é:", nomeVelha, "E sua idade é:", idamaior)
+         escreva("\nA mulher mais nova é: ",nomeNova," e sua idade é: ",idaNova)
+         escreva("A média é:", soma/50)
+
+  }
+}
+
+Questao 3
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro id[30], qtdm=0, qtdf=0
+		caracter sx[30]
+		para(inteiro x=0; x<30; x++){
+			escreva("Informe Idade:")
+			leia(id[x])
+			
+		}
+		limpa()
+		
+		para(inteiro x=0; x<30; x++){
+			escreva("Informe o sexo F ou M:")
+			leia(sx[x])
+			se (sx[x]=='F' ou sx[x]=='f'){
+				qtdf++
+			}senao{
+				escreva("Informe o sexo F ou M:")
+			leia(sx[x])
+			se (sx[x]=='M' ou sx[x]=='m')
+				qtdm++
+			}
+				
+			}
+			
+		}
+		
+
+		escreva("Quantidade sexo masculino:",qtdm)
+		escreva("Quantidade sexo feminino:", qtdf)
+		
+	}
+}
+
+QUESTAO 4
+programa
+{
+	
+	funcao inicio()
+	{
+	  inteiro n
+	  escreva("informe um numero de 1 a 4:")
+	  leia (n)
+	  se (n==1){
+	  	escreva("Um")
+	  }se(n==2){
+	  	escreva("Dois")
+	  }se (n==3){
+	  	escreva("tres")
+	  }se (n==4){
+	  	escreva("Quatro")	
+	  }senao{
+	  escreva("Numero invalido")
+	  			}
+	  		}
+	  	}
+	  }
+	}
+}
+
+QUESTAO 5
+programa {
+  funcao inicio() {
+    
+
+    inteiro num = 0, soma = 0 ,media = 0 ,soma2 = 0 , soma3 = 0, soma4 = 0, quant = 0
+
+		para (inteiro i = 0;i < 4;i++){
+			escreva("Informe um número: ")
+			leia(num)
+
+			se(num > 20){
+				soma = num
+				soma2 = soma2 + soma
+			}
+			senao se(num < 10){
+				soma3 = num
+				soma4 = soma4 + soma3
+				quant = quant + 1
+			}
+		}
+		escreva("\nA soma dos números maiores que 20 é: ",soma2)
+		escreva("\nA soma dos números maiores que 10 é: ",soma4)
+		escreva("\nA média dos números menores que 10 é: ",soma4/quant)
+  }
+}
+
+QUESTAO 6
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia nm
+		caracter sx
+		inteiro id, ap,inp
+
+          para (i=0:i<=5:i++){
+          	
+          
+		escreva("Informe Nome:")
+		leia(nm)
+		escreva("Informe idade:")
+		leia(id)
+		escreva("Informe sexo M ou F:")
+		leia(sx)
+          }
+		ap= ap +1
+		inp= inp + 1
+		
+		se (id <=18 e sx== 'M' ){
+		   escreva("Apto ao serviço militar")
+		}senao{
+			escreva("Inapto")
+			
+		}
+	}
+     escreva("aptos:", ap)
+	      escreva ("Inaptos:", inp)
+}
+}
+
+QUESTAO 7
+programa {
+  funcao inicio() {
+  
+inteiro num, QuantNum = 0
+		cadeia sair = ""
+
+		faca{
+			escreva("Digite um número: ")
+			leia(num)
+			escreva("\nPara sair do programa digite (sair) ")
+			leia(sair)
+
+			se(num <= 50 e num >= 30){
+
+			escreva("\n",num," está entre 50 e 30\n\n")
+
+			QuantNum = QuantNum + 1
+
+
+
+			}
+
+		}enquanto(sair != "sair")
+     
+     escreva("A quantidade de números é:", QuantNum)
+     }
+     }
+QUESTAO 8
+
+cadeia sair = ""
+		inteiro idade = 0
+
+		faca{
+			escreva("Digite a idade do jogador: ")
+			leia(idade)
+
+			se(idade >= 5 e idade <= 7){
+				escreva("\nSua categoria é Infantil A")
+				escreva("\nPara sair do programa digite (sair) ")
+				leia(sair)
+			}
+				senao se(idade >= 8 e idade <= 10){
+					escreva("\nSua categoria é Infantil B")
+					escreva("\nPara sair do programa digite (sair) ")
+					leia(sair)
+				}
+					senao se(idade >= 11 e idade <= 13){
+						escreva("\nSua categoria é Juvenil A")
+						escreva("\nPara sair do programa digite (sair) ")
+						leia(sair)
+					}
+						senao se(idade >= 14 e idade <= 17){
+							escreva("\nSua categoria é Juvenil B")
+							escreva("\nPara sair do programa digite (sair) ")
+							leia(sair)
+						}
+							senao se(idade >= 18 e idade <= 25){
+								escreva("\nSua categoria é Senior")
+								escreva("\nPara sair do programa digite (sair) ")
+								leia(sair)
+							}
+								senao{
+									escreva("\nERRO: Idade incompatível")
+									escreva("\nPara sair do programa digite (sair)")
+									leia(sair)
+								}
+		}enquanto(sair != "sair")
+    
+    QUESTAO 9
+    inteiro n, soma = 0, quant = 0, media
+
+      escreva("Informe o número:")
+      leia (n)
+
+       para(inteiro i = 0; i < 200; i++){
+        se (n % 2 == 0){
+
+           n = n++ + 1 
+           soma = soma + n 
+           quant = quant + 1 
+
+           escreva (n, "/")
+
+           
+        } senao {
+
+          n = n + 1 
+          escreva(n, ",")
+           soma = soma + n 
+           quant = quant + 1 
+        }
+       }
+
+        media = soma / quant
+		 escreva("\nA soma é: ", soma)
+		 escreva("\nA média é: ", media)
+     
+     QUESTAO 10 
+     
+     real num1, num2, div
+
+    escreva("Informe o primeiro número:")
+    leia (num1)
+    escreva("Informe o segundo número:")
+    leia( num2)
+
+    se (num2 != 0){
+
+    div = num1/num2
+
+    }senao {
+
+      faca{
+        escreva("Digite novamente o primeiro número: ")
+						leia(num1)
+						escreva("Digite novamente o segundo número: ")
+						leia(num2)
+					}enquanto(num2 == 0)
+					div = num1 / num2
+				}
+					escreva("A razão do primeiro número pelo segundo é: ", div)
+          
+          QUESTAO 11
+          
+           inteiro x, fat, soma = 0
+
+		faca{
+			escreva("Informe um número: ")
+			leia(x)
+		
+
+			se (x % 2 == 0){
+				para(fat = 1; x> 1; x = x--){
+					fat = fat * x
+				}
+					escreva(" O fatorial do número par informado é: ",fat, "\n")
+
+			}senao{
+
+					para(inteiro i = 0; i<= x;i++){
+						soma = soma + i
+					}
+					escreva("A soma de 0 até o número ímpar inserido é: ",soma,"\n")
+					}
+			}enquanto (x > 0)
+			escreva("Este número é inválido")
