@@ -1,0 +1,92 @@
+QUESTAO 1 
+
+programa {
+  funcao inicio() {
+    inteiro A [3], B [3], C [3]
+
+		para( inteiro i = 0; i < 3; i++){
+			escreva("Informe um número de A:")
+			leia(A[i])
+		}
+			para( inteiro i = 0; i < 3; i++){
+			escreva("Informe um número de B:")
+			leia(B[i])
+		}
+		 para( inteiro i = 0; i < 3; i++){
+           C[i] = A[i] * B[i]
+           escreva("O valor de C é:", C[i],"\n")
+  }
+}
+
+QUESTAO 2
+
+programa {
+  funcao inicio() {
+    inteiro vetor [20], num,rep = 0
+	 para( inteiro i = 0; i < 20; i++){
+			escreva("Informe um número do vetor:")
+			leia(vetor[i])
+	 }
+	 escreva("\nInforme um número:")
+		leia(num)
+
+	para( inteiro i = 0; i < 20; i++){
+		se(num ==vetor[i]){
+			rep++
+						
+		}
+}escreva("\nA quantidade desse número no vetor é:",rep)	
+  }
+}
+
+QUESTAO 3 
+
+programa {
+  funcao inicio() {
+    inteiro mes[12], MenorTemp=0, MaiorTemp=0, med=0, soma = 0, rep = 0, MenosVinte = 0
+	    
+	     para(inteiro i =0; i < 12; i++){
+	     	escreva("Informe a temperatura do mês:")
+	     	leia(mes[i])
+	     	
+	     }para(inteiro i = 0; i < 12; i++){
+	     	se(MenorTemp > mes[i]){
+	     		MenorTemp = mes[i]
+	     		
+	     	}
+	     }
+	     para(inteiro i =0; i < 12; i++){
+	     	se(MaiorTemp < mes[i]){
+	     	MaiorTemp = mes[i]
+
+	     	 }
+         }
+	     	 para(inteiro i =0; i < 12; i++){
+	     	 	soma = mes[i] + soma 
+          med = soma/12
+	     	 	
+ }
+
+         para(inteiro i =0; i < 12; i++){
+          se(mes[i] < med){
+            rep++
+
+          }
+
+    }
+      para(inteiro i =0; i < 12; i++){
+        se(mes[i] < 20){
+        MenosVinte++
+}
+}
+               escreva("A menor temperatura do ano é:", MenorTemp)
+               escreva("\n A maior temperatura é:", MaiorTemp)
+               escreva("\n A média anual é:", med)
+               escreva("\n A quantidade de meses com a temperatura menor que a média é:", rep)
+               escreva("\n Os meses em que a temperatura foi menor que vinte são:", MenosVinte)
+
+	}
+
+  }
+
+QUESTAO 4 TA NO REPOSITÓRIO DE JOÃO PEDRO
